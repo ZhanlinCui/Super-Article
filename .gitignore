@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# generated outputs
+articles/
+illustrations/
+tmp/
+out/
+dist/
+coverage/
+*.tgz
+
+# node / bun
+node_modules/
+
+# editor
+.idea/
+.vscode/
+*.tsbuildinfo
+
+# skill-specific generated files
+skills/**/articles/
+skills/**/illustrations/
+skills/**/article.illustrated.md
+skills/**/.wechat-temp/
